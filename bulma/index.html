@@ -8,6 +8,11 @@
       content="width-device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" type="text/css" href="css/bulma.min.css" />
+    <style type="text/css">
+      .card {
+        max-width: 300px;
+      }
+    </style>
   </head>
   <body>
     <button type="button" class="button is-primary">Primary button</button>
@@ -37,6 +42,26 @@
       <button type="button" class="button is-dark">Dark</button>
       <button type="button" class="button is-light">Light</button>
       <button type="button" class="button is-danger">Danger</button>
+    </div>
+    <br />
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-3by2">
+          <img src="https://via.placeholder.com/300x200" alt="Card image" />
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="content">
+          <h5>Card title</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="button is-primary">Link</a>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <a href="#" class="card-footer-item">Link</a>
+        <a href="#" class="card-footer-item">Link</a>
+        <a href="#" class="card-footer-item">Link</a>
+      </footer>
     </div>
   </body>
 </html>
