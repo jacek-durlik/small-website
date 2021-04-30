@@ -10,16 +10,23 @@
     <link rel="stylesheet" type="text/css" href="css/semantic.min.css" />
   </head>
   <body>
-      <div class="ui label">Label</div>
-      <div class="ui rating"></div>
+    <div class="ui label">Label</div>
+    <div class="ui rating"></div>
 
-      <div id="codeSnippet">
-        <span class="ui label">Badge</span>
-      </div>
-      <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-      <script type="text/javascript" src="js/semantic.min.js"></script>
-      <script type="text/javascript">
-        $(['.rating']).rating();
-      </script>
+    <div id="codeSnippet">
+      <span class="ui label">Badge</span>
+    </div>
+    <div class="ui breadcrumb">
+      <a class="section" href="#">Item 1</a>
+      <div class="divider">/</div>
+      <a class="section" href="#">Item 2</a>
+      <div class="divider">/</div>
+      <div class="active section">Item 3</div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/semantic.min.js"></script>
+    <script type="text/javascript">
+      $([".rating"]).rating();
+    </script>
   </body>
 </html>
