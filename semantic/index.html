@@ -197,6 +197,14 @@
         <a class="item" href="#">Next</a>
       </div>
     </div>
+
+    <div id="progress">
+      <div class="ui progress" data-value="25">
+        <div class="bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+    </div>
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -207,6 +215,7 @@
       $(".message .close").on("click", function () {
         $(this).closest(".message").transition("fade");
       });
+      $('.progress').progress();
     </script>
   </body>
 </html>
