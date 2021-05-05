@@ -71,12 +71,27 @@
       <button type="button" class="ui black button">Black</button>
     </div>
 
+    <div id="dropdown">
+      <button type="button" class="ui teal button dropdown">
+        Dropdown Trigger<i class="dropdown icon"></i>
+        <div class="menu transition hidden">
+          <a href="#" class="item">Dropdown Item</a>
+          <a href="#" class="item">Dropdown Item</a>
+          <div class="divider"></div>
+          <a href="#" class="item">Dropdown Item</a>
+        </div>
+      </button>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/semantic.min.js"></script>
     <script type="text/javascript">
       $([".rating"]).rating();
+    </script>
+    <script type="text/javascript">
+      $('.dropdown').dropdown();
     </script>
   </body>
 </html>

@@ -142,9 +142,25 @@
       <p class="red accent-4">Red accent 4</p>
     </div>
 
+    <!-- Does not work due to js error -->
+    <div id="dropdown">
+      <button type="button" class="btn dropdown-trigger" data-target="dropdown">
+        Dropdown Trigger
+      </button>
+      <ul id="dropdown" class="dropdown-content">
+        <li><a href="#">Dropdown Item</a></li>
+        <li><a href="#">Dropdown Item</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="#">Dropdown Item</a></li>
+      </ul>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(".dropdown-trigger").dropdown();
+    </script>
   </body>
 </html>

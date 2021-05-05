@@ -7,7 +7,20 @@
       name="viewport"
       content="width-device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Compressed JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+      integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="js/all.min.js" defer></script>
     <style type="text/css">
       .card {
@@ -54,6 +67,26 @@
       </div>
     </div>
 
+    <!-- Doesn't work :( -->
+    <div id="dropdown">
+      <button type="button" class="button" data-toggle="example-dropdown">
+        Dropdown Trigger
+      </button>
+      <div
+        class="dropdown-pane has-position-bottom"
+        data-dropdown
+        data-auto-focus="true"
+        id="example-dropdown"
+      >
+        <ul class="no-bullet">
+          <li><a href="#">Dropdown Item</a></li>
+          <li><a href="#">Dropdown Item</a></li>
+          <hr />
+          <li><a href="#">Dropdown Item</a></li>
+        </ul>
+      </div>
+    </div>
+
     <div id="colors">
       <h5>Colors for various components</h5>
       <button type="button" class="button primary">Primary</button>
@@ -62,10 +95,5 @@
       <button type="button" class="button alert">Alert</button>
       <button type="button" class="button warning">Warning</button>
     </div>
-
-    <!-- Scripts -->
-
-    <script type="text/javascript" src="js/foundation.js"></script>
-    <script type="text/javascript" src="js/vendor.js"></script>
   </body>
 </html>
