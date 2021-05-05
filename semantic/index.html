@@ -205,6 +205,24 @@
         </div>
       </div>
     </div>
+
+    <div id="tabs">
+      <div class="ui top attached tabular menu">
+        <a href="#" class="active item" data-tab="tabsBasic1">Tab 1</a>
+        <a href="#" class="item" data-tab="tabsBasic2">Tab 2</a>
+        <a href="#" class="item" data-tab="tabsBasic3">Tab 3</a>
+      </div>
+      <div class="ui bottom attached active tab segment" data-tab="tabsBasic1">
+        Tab Panel 1
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="tabsBasic2">
+        Tab Panel 2
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="tabsBasic3">
+        Tab Panel 3
+      </div>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -215,7 +233,8 @@
       $(".message .close").on("click", function () {
         $(this).closest(".message").transition("fade");
       });
-      $('.progress').progress();
+      $(".progress").progress();
+      $(".menu .item").tab();
     </script>
   </body>
 </html>

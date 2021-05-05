@@ -273,13 +273,32 @@
       </div>
     </div>
 
+    <div id="tabs">
+      <ul class="tabs" id="tabsBasic">
+        <li class="tab">
+          <a href="#tabBasic1" class="active">Tab 1</a>
+        </li>
+        <li class="tab">
+          <a href="#tabBasic2">Tab 2</a>
+        </li>
+        <li class="tab disabled">
+          <a href="#tabBasic3">Tab 3</a>
+        </li>
+      </ul>
+      <div id="tabBasic1">Tab Panel 1</div>
+      <div id="tabBasic2">Tab Panel 2</div>
+      <div id="tabBasic3">Tab Panel 3</div>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-      var dropdownElement = document.querySelectorAll(".dropdown-trigger");
-      var dropdownInstance = M.Dropdown.init(dropdownElement);
+      // var dropdownElement = document.querySelectorAll(".dropdown-trigger");
+      // var dropdownInstance = M.Dropdown.init(dropdownElement);
+      var elemTabs = document.getElementsByClassName("tabs")[0];
+      var instanceTabs = M.Tabs.init(elemTabs);
     </script>
   </body>
 </html>
