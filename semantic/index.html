@@ -166,6 +166,23 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </div>
     </div>
+
+    <div id="navbar">
+      <nav class="ui stackable menu">
+        <a href="#" class="ui small header item">Brand</a>
+        <a href="#" class="active item">Link</a>
+        <a href="#" class="item">Link</a>
+        <a href="#" class="item">Link</a>
+        <div class="ui right item">
+          <form>
+            <div class="ui action input">
+              <input type="search" placeholder="Search" />
+              <button type="submit" class="ui button">Search</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </div>
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -173,8 +190,8 @@
     <script type="text/javascript">
       $([".rating"]).rating();
       $(".dropdown").dropdown();
-      $('.message .close').on('click', function() {
-        $(this).closest('.message').transition('fade');
+      $(".message .close").on("click", function () {
+        $(this).closest(".message").transition("fade");
       });
     </script>
   </body>
