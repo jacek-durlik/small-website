@@ -67,7 +67,6 @@
       </div>
     </div>
 
-    <!-- Doesn't work :( -->
     <div id="dropdown">
       <button type="button" class="button" data-toggle="example-dropdown">
         Dropdown Trigger
@@ -182,6 +181,24 @@
       </div>
     </div>
 
+    
+    <div id="message">
+      <div class="callout warning" data-closable="">
+        <button
+          type="button"
+          class="close-button"
+          aria-label="Dismiss alert"
+          data-close=""
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+    </div>
+
     <script type="text/javascript" src="js/what-input.js"></script>
+    <script type="text/javascript">
+      $(document).foundation();
+    </script>
   </body>
 </html>
