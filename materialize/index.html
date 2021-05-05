@@ -155,12 +155,70 @@
       </ul>
     </div>
 
+    <div id="form-controls">
+      <form>
+        <div class="input-field">
+          <input type="email" id="input" />
+          <label for="input">Name</label>
+          <span class="helper-text">This is a help text</span>
+        </div>
+        <div class="input-field">
+          <textarea class="materialize-textarea" id="textarea"></textarea>
+          <label for="textarea">Textarea</label>
+        </div>
+        <label for="select">Select</label>
+        <select id="select">
+          <option value="" selected="" disabled="">Select option</option>
+          <option value="1">Item 1</option>
+          <option value="2">Item 2</option>
+          <option value="3">Item 3</option>
+        </select>
+        <p>
+          <label>
+            <input type="checkbox" />
+            <span>Checkbox</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" />
+            <span>Radio button</span>
+          </label>
+        </p>
+        <div class="input-field">
+          <div class="switch">
+            <label>
+              Off
+              <input type="checkbox" />
+              <span class="lever"></span>
+              On
+            </label>
+          </div>
+        </div>
+        <div class="file-field input-field">
+          <div class="btn">
+            <span>File</span>
+            <input type="file" />
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path" type="text" />
+          </div>
+        </div>
+        <div class="input-field">
+          <p class="range-field">
+            <input type="range" min="0" max="100" />
+          </p>
+        </div>
+      </form>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-      $(".dropdown-trigger").dropdown();
+      var dropdownElement = document.querySelectorAll(".dropdown-trigger");
+      var dropdownInstance = M.Dropdown.init(dropdownElement);
     </script>
   </body>
 </html>
