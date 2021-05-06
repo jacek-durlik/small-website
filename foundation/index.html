@@ -14,6 +14,7 @@
       integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="css/foundation-custom.css" />
     <script src="js/jquery-3.6.0.min.js"></script>
     <!-- Compressed JavaScript -->
     <script
@@ -284,7 +285,49 @@
     </div>
 
     <div id="tooltip">
-      <button type="button" class="button primary" data-tooltip="" title="Tooltip text">Tooltip</button>
+      <button
+        type="button"
+        class="button primary"
+        data-tooltip=""
+        title="Tooltip text"
+      >
+        Tooltip
+      </button>
+    </div>
+
+    <div id="utilities">
+      <div class="bordered">Border</div>
+      <div class="clearfix">
+        <div class="float-right">Float right</div>
+      </div>
+      <p>Hidden element below:</p>
+      <div class="hide">Display none</div>
+      <div class="flex-container align-justify">
+        <div>Flex item</div>
+        <div>Flex item</div>
+      </div>
+      <div class="responsive-embed widescreen">
+        <iframe src="embed-item.html"></iframe>
+      </div>
+      <img src="https://via.placeholder.com/100x100" class="rounded" />
+      <div class="margin-2" style="border: 1px solid #1779ba">Margin</div>
+      <div class="padding-2" style="border: 1px solid #1779ba">Padding</div>
+      <div class="text-center">Centered text</div>
+      <div class="text-uppercase">Uppercased text</div>
+      <div class="font-bold">Bold text</div>
+      <p>Only visible for screen readers below:</p>
+      <div class="show-for-sr">Screen readers only</div>
+      <div class="width-50" style="background-color: #1779ba">50% width</div>
+      <div class="shadow">Shadow</div>
+      <div class="text-truncate">
+        Truncated text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.
+      </div>
     </div>
 
     <script type="text/javascript" src="js/what-input.js"></script>
