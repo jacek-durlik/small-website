@@ -223,6 +223,12 @@
       </div>
     </div>
 
+    <div id="tooltip">
+      <button id="tooltip-btn" type="button" class="ui primary button" data-content="Popup text">
+        Popup
+      </button>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -235,6 +241,7 @@
       });
       $(".progress").progress();
       $(".menu .item").tab();
+      $("#tooltip-btn").popup();
     </script>
   </body>
 </html>

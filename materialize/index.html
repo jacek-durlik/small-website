@@ -290,6 +290,10 @@
       <div id="tabBasic3">Tab Panel 3</div>
     </div>
 
+    <div id="tooltip">
+      <button id="tooltip-btn" type="button" class="btn" data-tooltip="Tooltip text">Tooltip</button>
+    </div>
+
     <!-- Scripts -->
 
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -299,6 +303,8 @@
       // var dropdownInstance = M.Dropdown.init(dropdownElement);
       var elemTabs = document.getElementsByClassName("tabs")[0];
       var instanceTabs = M.Tabs.init(elemTabs);
+      var elems = $('#tooltip-btn');
+      var instances = M.Tooltip.init(elems);
     </script>
   </body>
 </html>
