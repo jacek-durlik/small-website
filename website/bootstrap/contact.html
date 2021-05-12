@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Bootstrap 4 Team page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bootstrap 4 Team Page</title>
+    <style type="text/css">
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h5 {
+        font-family: "Poiret One", cursive;
+      }
+
+      .card {
+        max-width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-xl navbar-expand-lg navbar-light bg-light">
+      <div class="container offset-0">
+        <div
+          id="links"
+          class="col-lg-3 col-12 col-md-12 col-sm-12 col-xs-12 col-xl-3"
+        >
+          <a
+            href="#"
+            class="navbar-brand text-md-left text-sm-left text-xs-left"
+            >Small business</a
+          >
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav col-lg-7 col-xl-7">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="team.html" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active"
+                >Contact <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="dropdown col-lg-2 col-12 col-md-12 col-sm-12 col-xl-2 col-xs-12"
+      >
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle btn-sm"
+          data-toggle="dropdown"
+          id="dropdownTrigger"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Change Language
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownTrigger">
+          <a href="#" class="dropdown-item">Language 1</a>
+          <a href="#" class="dropdown-item">Language 2</a>
+          <a href="#" class="dropdown-item">Language 3</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-lg my-4">
+      <h2 class="text-center mb-4">Contact</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <ul class="list-unstyled">
+            <li><h4>Address:</h4></li>
+            <li>Company name</li>
+            <li>Street name</li>
+            <li>ZIP code and city</li>
+            <li>
+              <i class="fa fa-fw fa-phone-alt"></i>
+              <a href="#">(123) 456-7890</a>
+            </li>
+            <li>
+              <i class="far fa-fw fa-envelope"></i>
+              <a href="#">info@domain.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6">
+          <ul class="list-unstyled">
+            <li><h4>Opening hours:</h4></li>
+            <li>
+              <div class="row">
+                <div class="col-6">Monday - Thursday:</div>
+                <div class="col-6 text-right">10 am - 6 pm</div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-6">Friday - Saturday:</div>
+                <div class="col-6 text-right">10 am - 10 pm</div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-6">Sunday:</div>
+                <div class="col-6 text-right">10 am - 8 pm</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h4>Send us a message:</h4>
+          <form>
+            <div class="row">
+              <div class="col-12 col-md-6 mb-4">
+                <label for="name">Name</label>
+                <div class="input-group" id="name">
+                  <div class="input-group-prepend input-group-text">
+                    <i class="fas fa-fw fa-user"></i>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Name" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mb-4">
+                <label for="email">Email</label>
+                <div class="input-group" id="email">
+                  <div class="input-group-prepend input-group-text">
+                    <i class="fas fa-fw fa-envelope"></i>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="example@email.com"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 mb-4">
+                <label for="telephone">Telephone</label>
+                <div class="input-group" id="telephone">
+                  <div class="input-group-prepend input-group-text">
+                    <i class="fa fa-fw fa-phone-alt"></i>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="0123456789"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="department">Department</label>
+                <div class="input-group" id="department">
+                  <div class="input-group-prepend input-group-text">
+                    <i class="fas fa-fw fa-home"></i>
+                  </div>
+                  <select class="form-control" placeholder="- select here -">
+                    <option value="department 1">Department 1</option>
+                    <option value="department 2">Department 2</option>
+                    <option value="department 3">Department 3</option>
+                    <option value="department 4">Department 4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-4">
+                <label for="message">Message:</label>
+                <div class="input-group" id="message">
+                  <div class="input-group-prepend input-group-text">
+                    <i class="fa-fw fas fa-pencil-alt"></i>
+                  </div>
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Write your message here..."
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-4">
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+                <button class="btn btn-secondary" type="button">Reset</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-12 col-md-6">
+          <h4>Where to find us:</h4>
+          <div class="map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
+              width="100%"
+              height="380"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-xl-3 col-lg-3 col-6 col-md-6 col-sm-12 col-xs-12">
+            <h4>Quick links</h4>
+            <div>
+              <a href="index.html">Home</a>
+            </div>
+            <div>
+              <a href="services.html">Services</a>
+            </div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="team.html">Team</a></div>
+            <div>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-6 col-md-6 col-sm-12 col-xs-12">
+            <h4>Information</h4>
+            <div><a href="#">Legal information</a></div>
+            <div><a href="#">Job opportunities</a></div>
+            <div><a href="#">Frequently Asked Questions</a></div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-6 col-md-6 col-sm-12 col-xs-12">
+            <h4>Follow us</h4>
+            <div>
+              <a href="#"><i class="fab fa-fw fa-facebook-f"></i> Facebok</a>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-fw fa-instagram"></i> Instagram</a>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-fw fa-youtube"></i> YouTube</a>
+            </div>
+            <div>
+              <a href="#"><i class="fab fa-fw fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-6 col-md-6 col-sm-12 col-xs-12">
+            <h4>Our location</h4>
+            <div>Company name</div>
+            <div>Street name</div>
+            <div>ZIP code and city</div>
+            <div>
+              <i class="fa fa-fw fa-phone-alt"></i>
+              <a href="#">(123) 456-7890</a>
+            </div>
+            <div>
+              <i class="far fa-fw fa-envelope"></i>
+              <a href="#">info@domain.com</a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="container text-center bg-light list-inline">
+          <li class="list-inline-item">
+            <i class="far fa-copyright"></i> Company 2021
+          </li>
+          <li class="list-inline-item">All rights reserved</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script lang="javascript">
+      $('.dropdown').dropdown();
+    </script>
+  </body>
+</html>
