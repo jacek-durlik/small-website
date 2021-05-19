@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Materialize Business Page</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width-device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="js/all.min.js" defer></script>
+    <style type="text/css">
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h5 {
+        font-family: "Poiret One", cursive;
+      }
+
+      .hero {
+        background-color: #f1f1f1;
+      }
+
+      nav.row {
+        margin-bottom: 0;
+      }
+
+      .hero {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+
+      .what-who h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="row">
+      <div class="col s12">
+        <div class="nav-wrapper row grey">
+          <a href="#" class="brand-logo black-text">Brand</a>
+          <a href="#" class="sidenav-trigger right" data-target="navbarSidenav"
+            ><i class="fas fa-bars black-text"></i
+          ></a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html" class="black-text">Home</a>
+            </li>
+            <li>
+              <a href="services.html" class="black-text">Services</a>
+            </li>
+            <li>
+              <a href="about.html" class="black-text">About</a>
+            </li>
+            <li>
+              <a href="team.html" class="black-text">Team</a>
+            </li>
+            <li class="active">
+              <a href="contact.html" class="black-text">Contact</a>
+            </li>
+            <li>
+              <a class="grey black-text dropdown-trigger" data-target="dropdown"
+                >Language <i class="fas fa-angle-down"></i
+              ></a>
+              <ul id="dropdown" class="dropdown-content">
+                <li><a href="#">Language 1</a></li>
+                <li><a href="#">Language 2</a></li>
+                <li><a href="#">Language 3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul id="navbarSidenav" class="sidenav">
+        <li>
+          <a href="index.html" class="black-text">Home</a>
+        </li>
+        <li>
+          <a href="services.html" class="black-text">Services</a>
+        </li>
+        <li>
+          <a href="about.html" class="black-text">About</a>
+        </li>
+        <li><a href="team.html" class="black-text">Team</a></li>
+        <li class="active">
+          <a href="contact.html" class="black-text">Contact</a>
+        </li>
+        <li>
+          <a class="grey black-text dropdown-trigger" data-target="dropdown"
+            >Language <i class="fas fa-angle-down"></i
+          ></a>
+          <ul id="dropdown" class="dropdown-content">
+            <li><a href="#">Language 1</a></li>
+            <li><a href="#">Language 2</a></li>
+            <li><a href="#">Language 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h2 class="center-align">Contact us</h2>
+      <div class="row">
+        <div class="col s12 m6">
+          <h4>Address:</h4>
+          <address>
+            <div>Company Name</div>
+            <div>Street Name</div>
+            <div>ZIP code and city</div>
+            <div>
+              <i class="fas fa-fw fa-phone-alt"></i>
+              <a href="#">(123) 456-7890</a>
+            </div>
+            <div>
+              <i class="fas fa-fw fa-envelope"></i>
+              <a href="#">info@domain.com</a>
+            </div>
+          </address>
+        </div>
+        <div class="col s12 m6">
+          <h4>Opening hours:</h4>
+          <div class="row">
+            <div class="col s6">Monday - Thursday</div>
+            <div class="col s6 right-align">10 am - 6 pm</div>
+            <div class="col s6">Friday - Saturday</div>
+            <div class="col s6 right-align">10 am - 10 pm</div>
+            <div class="col s6">Sunday</div>
+            <div class="col s6 right-align">10 am - 8 pm</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l6">
+          <h4>Send us a message:</h4>
+          <form>
+            <div class="row">
+              <div class="col s12 m6">
+                <div class="input-field">
+                  <label for="name">Name:</label>
+                  <i class="fas fa-fw fa-user prefix"> </i>
+                  <input
+                    id="name"
+                    class="right"
+                    type="text"
+                    placeholder="Firstname Lastname"
+                  />
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="input-field">
+                  <label for="email">Email:</label>
+                  <i class="fas fa-fw fa-envelope prefix"> </i>
+                  <input
+                    id="email"
+                    class="right"
+                    type="text"
+                    placeholder="example@email.com"
+                  />
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="input-field">
+                  <label for="phone">Telephone:</label>
+                  <i class="fas fa-fw fa-phone-alt prefix"> </i>
+                  <input
+                    id="phone"
+                    class="right"
+                    type="text"
+                    placeholder="1234567890"
+                  />
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="input-field">
+                  <i class="fas fa-fw fa-home prefix"> </i>
+                  <select id="dept" class="right">
+                    <option value="">- select here -</option>
+                    <option value="department 1">Department 1</option>
+                    <option value="department 2">Department 2</option>
+                    <option value="department 3">Department 3</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="input-field">
+              <label for="message">Message:</label>
+              <i class="fas fa-fw fa-pencil-alt prefix"></i>
+              <textarea
+                id="message"
+                class="materialize-textarea"
+                rows="5"
+                placeholder="Write your message here..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary">Submit</button>
+            <button type="reset" class="btn grey">Reset</button>
+          </form>
+        </div>
+        <div class="col s12 l6">
+          <h4>Where to find us:</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2317.231145681322!2d18.532211415881974!3d54.494146080235566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda0c610cf5185%3A0x117d18ba65fbe40b!2s%C5%81u%C5%BCycka%20Office%20Park%20-%20Budynek%20D%2C%20%C5%81u%C5%BCycka%206D%2C%2081-537%20Gdynia!5e0!3m2!1spl!2spl!4v1621409844950!5m2!1spl!2spl"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <h4>Quick links</h4>
+          <div>
+            <a href="index.html">Home</a>
+          </div>
+          <div>
+            <a href="services.html">Services</a>
+          </div>
+          <div><a href="about.html">About</a></div>
+          <div><a href="team.html">Team</a></div>
+          <div>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <h4>Information</h4>
+          <div><a href="#">Legal information</a></div>
+          <div><a href="#">Job opportunities</a></div>
+          <div><a href="#">Frequently Asked Questions</a></div>
+        </div>
+        <div class="col s12 m6 l3">
+          <h4>Follow us</h4>
+          <div>
+            <a href="#"><i class="fab fa-fw fa-facebook-f"></i> Facebok</a>
+          </div>
+          <div>
+            <a href="#"><i class="fab fa-fw fa-instagram"></i> Instagram</a>
+          </div>
+          <div>
+            <a href="#"><i class="fab fa-fw fa-twitter"></i> Twitter</a>
+          </div>
+          <div>
+            <a href="#"><i class="fab fa-fw fa-youtube"></i> YouTube</a>
+          </div>
+          <div>
+            <a href="#"><i class="fab fa-fw fa-linkedin-in"></i> LinkedIn</a>
+          </div>
+        </div>
+        <div class="col s12 m6 l3">
+          <h4>Our location</h4>
+          <div>Company name</div>
+          <div>Street name</div>
+          <div>ZIP code and city</div>
+          <div>
+            <i class="fa fa-fw fa-phone-alt"></i>
+            <a href="#">(123) 456-7890</a>
+          </div>
+          <div>
+            <i class="far fa-fw fa-envelope"></i>
+            <a href="#">info@domain.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <i class="far fa-copyright"></i> Company 2021 All rights reserved
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+
+    <script type="text/javascript">
+      var dropdownElement = document.querySelectorAll(".dropdown-trigger");
+      var dropdownOptions = { hover: true };
+      var dropdownInstance = M.Dropdown.init(dropdownElement, dropdownOptions);
+
+      var elemSidenav = document.querySelectorAll(".sidenav");
+      var instanceSidenav = M.Sidenav.init(elemSidenav);
+
+      var selectElements = document.querySelectorAll("select");
+      var selectInstances = M.FormSelect.init(selectElements);
+    </script>
+  </body>
+</html>
